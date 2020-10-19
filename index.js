@@ -195,121 +195,21 @@ const createInfoBlockValues = (infoBlockItem, addInfoItem) => {
 }
 
 
-// const addInfoBlock = () => {
-//     const informationBlock = document.getElementById('informationBlock');
-//     const addInfoBlock = document.getElementById('addInfoBlock');
-//     addInfoBlock.classList.remove('fullPage');
-//
-//     const infoBlockItem = document.createElement('div');
-//     infoBlockItem.classList.add('infoBlockItem');
-//     infoBlockItem.id = `infoBlockItem${informationBlock.childElementCount}`
-//
-//     const deleteInfoBlockItem = document.createElement('button');
-//     deleteInfoBlockItem.innerHTML = "X"
-//     deleteInfoBlockItem.classList.add('deleteInfoBlockItem');
-//
-//     deleteInfoBlockItem.addEventListener('click', () => {
-//         let id = deleteInfoBlockItem.offsetParent.id;
-//         for (let i = 0; i < informationBlock.childNodes.length; i++) {
-//             if (informationBlock.childNodes[i].id === id) {
-//                 const item = informationBlock.childNodes[i];
-//                 return informationBlock.removeChild(item);
-//             }
-//         }
-//     })
-//
-//     const INPUT = document.createElement('input');
-//     INPUT.classList.add('field');
-//     INPUT.id = 'titleInput';
-//     INPUT.placeholder = 'Введите заголовок блока';
-//
-//     const SUBMIT_BUTTON = document.createElement('button');
-//     SUBMIT_BUTTON.innerText = '⩗';
-//
-//     const infoBlockTitle = document.createElement('div');
-//     infoBlockTitle.classList.add('baseInfoElement', 'titleInfo');
-//
-//     infoBlockTitle.appendChild(INPUT);
-//     infoBlockTitle.appendChild(SUBMIT_BUTTON);
-//
-//     infoBlockItem.appendChild(deleteInfoBlockItem);
-//     infoBlockItem.appendChild(infoBlockTitle);
-//
-//     informationBlock.insertBefore(infoBlockItem, addInfoBlock);
-//
-//     const infoBlockTitleClick = () => {
-//         infoBlockTitle.innerHTML = `<h2>${INPUT.value}</h2>`;
-//         INPUT.value = '';
-//         newInfoItem();
-//     }
-//     SUBMIT_BUTTON.addEventListener('click', infoBlockTitleClick)
-//
-//     const newInfoItem = () => {
-//         SUBMIT_BUTTON.removeEventListener('click', infoBlockTitleClick)
-//         const infoItem = document.createElement('div');
-//         infoItem.classList.add('baseInfoElement', 'infoItem');
-//
-//         const fieldInput = document.createElement('input');
-//         fieldInput.classList.add('field');
-//         fieldInput.id = 'fieldInput';
-//         fieldInput.placeholder = 'Введите название поля';
-//
-//         const fieldInputValue = document.createElement('input');
-//         fieldInputValue.classList.add('field');
-//         fieldInputValue.id = 'fieldInputValue';
-//         fieldInputValue.placeholder = 'Введите значение поля';
-//
-//         const addInfoItem = document.createElement('button');
-//
-//         const createInfoItem = () => {
-//             infoItem.appendChild(fieldInput);
-//             infoItem.appendChild(fieldInputValue);
-//             infoItem.appendChild(SUBMIT_BUTTON);
-//             if (infoBlockItem.childElementCount === 2) {
-//                 infoBlockItem.appendChild(infoItem);
-//             } else {
-//                 // infoBlockItem.removeChild(addInfoItem);
-//                 infoBlockItem.removeChild(infoBlockItem.children[infoBlockItem.children.length-1]);
-//                 infoBlockItem.appendChild(infoItem);
-//                 // infoBlockItem.insertBefore(infoItem, infoBlockItem.children[infoBlockItem.children.length-1]);
-//             }
-//         }
-//
-//         const submitInfoItem = () => {
-//             infoItem.innerHTML = `<div>${fieldInput.value}: ${fieldInputValue.value}</div>`;
-//             infoItem.classList.add('completedInfoItem');
-//             addInfoItem.classList.add('addInfoItem');
-//             addInfoItem.innerText = `Добавить еще ${infoBlockTitle.innerText.toLowerCase()}`;
-//
-//             addInfoItem.addEventListener('click', () => {
-//                 newInfoItem();
-//             })
-//
-//             // if (infoBlockItem.childElementCount === 3) {
-//             //     infoBlockItem.appendChild(infoItem);
-//             //     infoBlockItem.appendChild(addInfoItem);
-//             // } else {
-//             //     infoBlockItem.insertBefore(infoItem, addInfoItem)
-//             // }
-//             infoBlockItem.appendChild(infoItem);
-//             infoBlockItem.appendChild(addInfoItem);
-//
-//         }
-//
-//         createInfoItem();
-//         SUBMIT_BUTTON.addEventListener('click', submitInfoItem);
-//
-//     }
-// }
-
-
 function exportHTML() {
     let header = "<html xmlns:o='urn:schemas-microsoft-com:office:office' " +
         "xmlns:w='urn:schemas-microsoft-com:office:word' " +
         "xmlns='http://www.w3.org/TR/REC-html40'>" +
         "<head><meta charset='utf-8'><title>Export HTML to Word Document with JavaScript</title></head><body>";
     let footer = "</body></html>";
-    let sourceHTML = header + document.getElementById("wrapper").innerHTML + footer;
+
+    const DIV = document.createElement('div');
+    DIV.innerText = 'hello';
+
+    const image = document.getElementById('photo');
+
+    DIV.appendChild(image);
+
+    let sourceHTML = header + DIV.innerHTML + footer;
 
     let source = 'data:application/vnd.ms-word;charset=utf-8,' + encodeURIComponent(sourceHTML);
     let fileDownload = document.createElement("a");

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3eb7da08-68cc-4264-b1e2-f3e925c5cf59" name="Default Changelist" comment="" />
+    <list default="true" id="3eb7da08-68cc-4264-b1e2-f3e925c5cf59" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +20,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1j0UmKmM6pI1xXQpt49ndta8E1D" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,11 +48,21 @@
       <workItem from="1602971951173" duration="3450000" />
       <workItem from="1603014813113" duration="32664000" />
       <workItem from="1603103676825" duration="2814000" />
-      <workItem from="1603106514301" duration="2223000" />
+      <workItem from="1603106514301" duration="3521000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="645" y="334" key="Github.ShareDialog" timestamp="1603111962219">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="645" y="334" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1603111962219" />
+    <state x="592" y="54" key="Github.UntrackedFilesDialog" timestamp="1603111973576">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="592" y="54" key="Github.UntrackedFilesDialog/0.0.1536.864@0.0.1536.864" timestamp="1603111973576" />
   </component>
 </project>
