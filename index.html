@@ -20,18 +20,39 @@
             <div id="baseInfo">
                 <h2>Расскажите о себе</h2>
                 <div class="surname baseInfoElement">
-                    <input type="text" id="surnameInput" class="field" required onfocus="onInputFocus(event)"
-                           onblur="onInputBlur(event)">
+                    <input
+                            type="text"
+                            id="surnameInput"
+                            class="field"
+                            required
+                            onfocus="onInputFocus(event)"
+                           onblur="onInputBlur(event)"
+                            pattern="[A-Za-zА-Яа-яЁё]{2,}"
+                    >
                     <label for="surnameInput" class="fieldLabel">Фамилия</label>
                 </div>
                 <div class="name baseInfoElement">
-                    <input type="text" id="nameInput" class="field" required onfocus="onInputFocus(event)"
-                           onblur="onInputBlur(event)">
+                    <input
+                            type="text"
+                            id="nameInput"
+                            class="field"
+                            required
+                            onfocus="onInputFocus(event)"
+                           onblur="onInputBlur(event)"
+                            pattern="[A-Za-zА-Яа-яЁё]{2,}"
+                    >
                     <label for="nameInput" class="fieldLabel">Имя</label>
                 </div>
                 <div class="fatherName baseInfoElement">
-                    <input type="text" id="fatherNameInput" class="field" required onfocus="onInputFocus(event)"
-                           onblur="onInputBlur(event)">
+                    <input
+                            type="text"
+                            id="fatherNameInput"
+                            class="field"
+                            required
+                            onfocus="onInputFocus(event)"
+                           onblur="onInputBlur(event)"
+                            pattern="[A-Za-zА-Яа-яЁё]{2,}"
+                    >
                     <label for="fatherNameInput" class="fieldLabel">Отчество</label>
                 </div>
                 <div class="date baseInfoElement">

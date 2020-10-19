@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3eb7da08-68cc-4264-b1e2-f3e925c5cf59" name="Default Changelist" comment="feat: add check validation button" />
+    <list default="true" id="3eb7da08-68cc-4264-b1e2-f3e925c5cf59" name="Default Changelist" comment="fix: phone validation fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -45,6 +67,7 @@
       <workItem from="1603014813113" duration="32664000" />
       <workItem from="1603103676825" duration="2814000" />
       <workItem from="1603106514301" duration="4027000" />
+      <workItem from="1603122394330" duration="1552000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add check validation button">
       <created>1603121708709</created>
@@ -53,28 +76,51 @@
       <option name="project" value="LOCAL" />
       <updated>1603121708709</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix: phone validation fix">
+      <created>1603122591552</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603122591552</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: add check validation button" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add check validation button" />
+    <MESSAGE value="fix: phone validation fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: phone validation fix" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="645" y="334" key="Github.ShareDialog" timestamp="1603111962219">
+    <state x="549" y="174" key="FileChooserDialogImpl" timestamp="1603124949805">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="645" y="334" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1603111962219" />
+    <state x="549" y="174" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1603124949805" />
+    <state x="645" y="334" key="Github.ShareDialog" timestamp="1603123171653">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="645" y="334" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1603123171653" />
     <state x="592" y="54" key="Github.UntrackedFilesDialog" timestamp="1603111973576">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="592" y="54" key="Github.UntrackedFilesDialog/0.0.1536.864@0.0.1536.864" timestamp="1603111973576" />
-    <state x="361" y="161" key="Vcs.Push.Dialog.v2" timestamp="1603121711252">
+    <state x="361" y="161" key="Vcs.Push.Dialog.v2" timestamp="1603122602914">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1603121711252" />
+    <state x="361" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1603122602914" />
   </component>
 </project>
