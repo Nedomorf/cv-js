@@ -29,16 +29,19 @@ const onInputBlur = (event) => {
         label.classList.remove('writing');
     }
     let inputValue = event.currentTarget.value;
-    let exitValue = [];
-    inputValue.split('').filter((el, index) => {
-        if (index === 2 || index === 4) {
-            exitValue.push(el);
-            exitValue.push(' - ');
-        } else {
-            exitValue.push(el);
-        }
-    })
-    if (event.currentTarget.value.length === 7) event.currentTarget.value = exitValue.join('');
+    const inputId = event.currentTarget.id;
+    if (inputId === 'phoneInput') {
+        let exitValue = [];
+        inputValue.split('').filter((el, index) => {
+            if (index === 2 || index === 4) {
+                exitValue.push(el);
+                exitValue.push(' - ');
+            } else {
+                exitValue.push(el);
+            }
+        })
+        if (event.currentTarget.value.length === 7) event.currentTarget.value = exitValue.join('');
+    }
 }
 
 
